@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Use Apple Pay",
+  "version": "0.1.0",
+
+  "description": "Firefox extension to prompt to use apple pay when available",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ],
+
+  "permissions": ["activeTab", "notifications"]
+}
