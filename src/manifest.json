@@ -6,7 +6,8 @@
   "description": "Firefox extension to prompt to use apple pay when available",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/apple-pay.png",
+    "96": "icons/apple-pay@2x.png"
   },
 
   "content_scripts": [
