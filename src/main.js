@@ -4,6 +4,13 @@
 // Mock apple pay session
 // docs: https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability
 let mock = {
+  supportsVersion: function (version) {
+    console.log('supportsVersion mock function called:', version);
+    alert('The Apple Pay JS API is available!');
+    return false;
+  },
+  // TODO: These should be functions on an instantiation of a new
+  // ApplePaySession, rather than static functions.
   canMakePayments: function () {
     console.log('canMakePayments mock function called');
     alert('The Apple Pay JS API is available!');
