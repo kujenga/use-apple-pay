@@ -5,6 +5,11 @@ extends: 'eslint:recommended'
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
+  # Browser Extensions
+  # https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Language_Bindings/Components.utils.cloneInto
+  cloneInto: readonly
+  # https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Language_Bindings/Components.utils.exportFunction
+  exportFunction: readonly
 parserOptions:
   ecmaVersion: 2018
   sourceType: module
