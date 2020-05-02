@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kujenga/use-apple-pay/issues"
   },
-  "homepage": "https://github.com/kujenga/use-apple-pay#readme"
+  "homepage": "https://github.com/kujenga/use-apple-pay#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
 }
