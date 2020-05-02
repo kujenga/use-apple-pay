@@ -1,0 +1,19 @@
+{
+  "name": "use-apple-pay",
+  "version": "0.1.0",
+  "description": "Firefox extension to prompt to use apple pay when available",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kujenga/use-apple-pay.git"
+  },
+  "author": "Aaron Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kujenga/use-apple-pay/issues"
+  },
+  "homepage": "https://github.com/kujenga/use-apple-pay#readme"
+}
